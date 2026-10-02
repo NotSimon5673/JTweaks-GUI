@@ -8,5 +8,5 @@ tags={
 	"Font"
 	"Events"
 }
-name="JTweaks"
+name="JTweaks - GUI"
 supported_version="v4.5.1"
