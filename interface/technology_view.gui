@@ -112,6 +112,7 @@ guiTypes = {
 			orientation = upper_right
 			font = "cg_16b"
 			text = "Technology Tree" #need to figure out where these values are being defined!
+			effect = get_tech_screen
 			#shortcut = "v"
 		}
 

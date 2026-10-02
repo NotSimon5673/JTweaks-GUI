@@ -1,0 +1,54 @@
+get_tech_screen = {
+	potential = {
+		always = yes
+	}
+	allow = {
+		always = yes
+
+		custom_tooltip = "UMMMMMM does some stuff and shit you know how it is"
+		
+	}
+
+	
+
+	effect = {
+
+		
+
+		random_owned_planet = {
+			limit = {
+				is_capital = no
+			}
+
+			
+
+			create_species = {
+				name = "Michael"
+				plural = "Michaels"
+				class = random_non_machine
+				portrait = random
+				extra_trait_points = 150
+				traits = random
+				immortal = yes
+				gender = male
+				namelist = random
+
+			}
+			create_rebels = {
+				name = random
+				authority = random
+				civics = {
+					civic = civic_fanatic_purifiers
+					civic = civic_death_cult
+				}
+				species = last_created_species
+				ethos = random
+
+			}
+
+
+
+
+		}
+	}
+}
