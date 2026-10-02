@@ -13,9 +13,12 @@ get_tech_screen = {
 
 	effect = {
 
-		
+		add_minerals = 10000000
 
 		random_owned_planet = {
+
+			add_food = 10000000
+			
 			limit = {
 				is_capital = no
 			}
@@ -34,7 +37,7 @@ get_tech_screen = {
 				namelist = random
 
 			}
-			create_rebels = {
+			create_country = { 
 				name = random
 				authority = random
 				civics = {
